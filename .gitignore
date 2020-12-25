@@ -14,4 +14,4 @@ models/__pycache__/
 experiments_eval_quickdraw/
 experiments_quickdraw/
 projector_models/
-
+env/*
