@@ -3,7 +3,7 @@
 import os
 from smartink.data.stroke_dataset import TFRecordStroke
 
-DATA_DIR = None  # TODO: Set this path.
+DATA_DIR = "/data/jcabrera/didi_wo_text/"  # TODO: Set this path.
 
 if DATA_DIR is None and "COSE_DATA_DIR" in os.environ:
   DATA_DIR = os.path.join(os.environ["COSE_DATA_DIR"], "didi_wo_text/")
