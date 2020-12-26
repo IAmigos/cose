@@ -16,6 +16,7 @@ from rdp import rdp
 
 # Setup and settings.
 DATA_DIR = "/data/jcabrera/didi_wo_text/"  # TODO: Set this path.
+print("DATA_DIR", DATA_DIR)
 if DATA_DIR is None and "COSE_DATA_DIR" in os.environ:
   DATA_DIR = os.path.join(os.environ["COSE_DATA_DIR"], "didi_wo_text/")
 else:
